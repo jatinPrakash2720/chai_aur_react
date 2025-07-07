@@ -32,10 +32,10 @@ const reactElement = React.createElement(
     href: "https://google.com",
     target: "_blank",
   },
-  `${anotherUser} click me to visit google `
+  "click me to visit google "
 )
 createRoot(document.getElementById("root")).render(
-  <App />
+  <MyApp />
   // reactElement
   // anotherElement
 
