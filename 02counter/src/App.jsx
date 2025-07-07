@@ -5,7 +5,10 @@ function App() {
   const [counter, setCounter] = useState(15)
   function addValue() {
     // console.log(Math.random(), counter)
-    setCounter(counter + 1)
+    setCounter((prevCounter) => prevCounter + 1)
+    setCounter((prevCounter) => prevCounter + 1)
+    setCounter((prevCounter) => prevCounter + 1)
+    setCounter((prevCounter) => prevCounter + 1)
   }
   function removeValue() {
     if (counter === 0) return
